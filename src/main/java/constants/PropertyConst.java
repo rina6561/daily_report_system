@@ -7,7 +7,7 @@ package constants;
 
 public enum PropertyConst {
 
-    //ペッパー文字列
+    //ペッパー文字列：暗号化に使う文字列
     PEPPER("pepper");
 
     private final String text;
