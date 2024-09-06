@@ -4,7 +4,6 @@ package constants;
  * 画面の項目値等を定義するEnumクラス
  *
  */
-
 public enum AttributeConst {
 
     //フラッシュメッセージ
@@ -19,14 +18,14 @@ public enum AttributeConst {
     ERR("errors"),
 
     //ログイン中の従業員
-    LOGIN_ENP("login_employee"),
+    LOGIN_EMP("login_employee"),
 
     //ログイン画面
     LOGIN_ERR("loginError"),
 
     //従業員管理
-    EMPROYEE("employee"),
-    EMPROYEES("employees"),
+    EMPLOYEE("employee"),
+    EMPLOYEES("employees"),
     EMP_COUNT("employees_count"),
     EMP_ID("id"),
     EMP_CODE("code"),
@@ -71,8 +70,5 @@ public enum AttributeConst {
     public Integer getIntegerValue() {
         return this.i;
     }
-
-
-
 
 }
